@@ -12,12 +12,17 @@ items = [
 ]
 
 
-col_espacio_izq, col_logo, col_titulo, col_espacio_der = st.columns([1, 2, 6, 1])
-with col_logo:
-    st.image("logo.png", width=60)
+st.set_page_config(page_title="Oro de León", layout="wide")
+col1, col2 = st.columns([1, 5]) 
 
-with col_titulo:
-    st.markdown("<h1 style='margin-top: 18px;'>Cotiza tu pulsera</h1>", unsafe_allow_html=True)
+with col1:
+    st.image("logo.png", width=150)  
+
+with col2:
+    st.title("Cotiza tu pulsera")
+
+st.markdown("<p style='font-size:16px; color: gray;'>Calle 52 # 16-31 Barrio San Miguel</p>", unsafe_allow_html=True)
+
 
 
 st.image("balines.png", width=300) 
