@@ -11,15 +11,13 @@ items = [
     {'nombre': 'Balin de goma', 'diámetro': 6, 'precio': 400}
 ]
 
-import streamlit as st
 
-col1, col2 = st.columns([1, 5])  # Ajusta proporción ancho: logo 1 / título 5
+col_espacio_izq, col_logo, col_titulo, col_espacio_der = st.columns([1, 2, 6, 1])
+with col_logo:
+    st.image("logo.png", width=60)
 
-with col1:
-    st.image("logo.png", width=60)  # Ajusta el tamaño según tu imagen
-
-with col2:
-    st.markdown("<h1 style='margin-top: 10px;'>Cotiza tu pulsera</h1>", unsafe_allow_html=True)
+with col_titulo:
+    st.markdown("<h1 style='margin-top: 18px;'>Cotiza tu pulsera</h1>", unsafe_allow_html=True)
 
 
 st.image("balines.png", width=150) 
