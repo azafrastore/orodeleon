@@ -20,7 +20,7 @@ with col_titulo:
     st.markdown("<h1 style='margin-top: 18px;'>Cotiza tu pulsera</h1>", unsafe_allow_html=True)
 
 
-st.image("balines.png", width=150) 
+st.image("balines.png", width=250) 
 
 cantidades = {}
 for item in items:
