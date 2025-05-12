@@ -11,16 +11,8 @@ items = [
     {'nombre': 'Balin de goma', 'diámetro': 6, 'precio': 400}
 ]
 
-st.markdown(
-    """
-    <div style="display: flex; align-items: center;">
-        <img src="logo.png" style="width: 40px; margin-right: 10px;">
-        <h1 style="margin: 0;">Cotiza tu pulsera</h1>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-#import streamlit as st
+st.image("logo.png", width=50) 
+st.title("Cotiza tu pulsera")
 
 st.image("balines.png", width=150) 
 
