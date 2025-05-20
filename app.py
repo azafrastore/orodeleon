@@ -21,7 +21,7 @@ with col1:
 with col2:
     st.title("Cotiza tu pulsera")
 
-st.markdown("<p style='font-size:16px; color: gray;'>Calle 52 # 16-31 Barrio San Miguel</p>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:16px; color: gray;'>Barrio San Miguel</p>", unsafe_allow_html=True)
 
 
 
