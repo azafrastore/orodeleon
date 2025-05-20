@@ -44,4 +44,4 @@ for item in items:
 # Botón de calcular
 if st.button("Calcular total"):
     total = sum(cant * precio for cant, precio in cantidades.values())
-    st.success(f"Total a pagar: ${total + 10000}")
+    st.success(f"Total a pagar: ${total + 5000}")
