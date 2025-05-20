@@ -6,7 +6,7 @@ items = [
     {'nombre': 'Balin#4', 'diámetro': 6, 'precio': 43000},
     {'nombre': 'Balin#5', 'diámetro': 6, 'precio': 58000},
     {'nombre': 'Balin#6', 'diámetro': 6, 'precio': 73000},
-    {'nombre': 'Balin#7', 'diámetro': 6, 'precio': 980000},
+    {'nombre': 'Balin#7', 'diámetro': 6, 'precio': 98000},
     {'nombre': 'Balin#8', 'diámetro': 6, 'precio': 120000},
     {'nombre': 'Balin de goma', 'diámetro': 6, 'precio': 400}
 ]
