@@ -11,7 +11,6 @@ items = [
     {'nombre': 'Balin de goma', 'diámetro': 6, 'precio': 400}
 ]
 
-
 st.set_page_config(page_title="Oro de León", layout="wide")
 col1, col2 = st.columns([1, 5]) 
 
