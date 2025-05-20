@@ -41,7 +41,7 @@ for item in items:
     cantidad = st.number_input(f"Cantidad de {item['nombre']}", min_value=0, max_value=100, step=1, key=item['nombre'])
     cantidades[item['nombre']] = (cantidad, item['precio'])
 
-# Botón de calcular
+
 if st.button("Calcular total"):
     total = sum(cant * precio for cant, precio in cantidades.values())
     st.success(f"Total a pagar: ${total + 5000}")
